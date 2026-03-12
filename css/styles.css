@@ -98,3 +98,11 @@ body {
     font-size: 100px;
     font-weight: bolder;
 }
+
+/* "Contact Us" form on contact.html */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}

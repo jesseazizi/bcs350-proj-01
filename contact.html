@@ -17,9 +17,40 @@
     </ul>
 </nav>
 
+<!-- Page content -->
 <section class="content">
+    
+    <!-- Welcome message on contact page -->
     <h1>Contact Us</h1>
+    <p>Have any questions, comments, or improvements? Shoot us an email and we'll get back to you as soon as we can.</p>
 
+    <!-- "Contact Us" form -->
+    <form action="#" method="post" class="contact-form">
+        
+        <!-- Full name label + box -->
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <!-- Email label + box -->
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <!-- Phone # label + box -->
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+        <!-- Subject label + box -->
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
+
+        <!-- Message label + box -->
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <!-- Submit button -->
+        <button type="submit" class="button">Send Message</button>
+
+    </form>
 </section>
 </body>
 </html>
