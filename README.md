@@ -25,10 +25,8 @@ bcs350-proj-01/
 ```
 
 ## BCS 350 Questionnaire
-<summary>
 <details>
-Part 1: Content
-</details>
+<summary>Part 1: Content</summary>
 
 1. What is the name of your business?
 > FSCDrive
@@ -65,12 +63,10 @@ Part 1: Content
 
 12. Will the site include images, videos, or other media? Why?
 > I will include some generic clipart but FSCDrive does not have a logo or other promotional materials so I cannot include such things
-</summary>
-
-<summary>
-<details>
-Part 2: Content
 </details>
+
+<details>
+<summary>Part 2: Content</summary>
 
 1. What overall style will the website have (minimalist, corporate, creative, etc.)?
 > Minimalist so it's easily legible
@@ -104,7 +100,7 @@ Part 2: Content
 
 12. Describe the layout of the homepage and build the wireframe
 > The homepage will have a navbar at the top, a welcome message, a large picture, and instructions for navigating the website. The wireframe can be found inside the repository.
-</summary>
+</details>
 
 <details>
 <summary>
