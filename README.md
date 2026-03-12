@@ -24,6 +24,9 @@ bcs350-proj-01/
     └── images/
 ```
 
+## Wireframe
+![Wireframe]('wireframe.jpeg')
+
 ## BCS 350 Questionnaire
 <details>
 <summary>Part 1: Content</summary>
