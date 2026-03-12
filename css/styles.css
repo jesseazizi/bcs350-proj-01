@@ -34,12 +34,12 @@ body {
     padding: 60px;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* controls spacing between sections */
+    gap: 20px; /* Controls spacing between sections */
 }
 
 /* Navigation bar */
 .navbar {
-    background-color: #333;
+    background-color: #2F6D70;
     padding: 15px;
 }
 
@@ -78,54 +78,4 @@ body {
 
 .button:active {
     transform: scale(0.97);
-}
-
-/* Header for each job entry */
-.job-header {
-    display: flex;
-    align-items: baseline;
-    gap: 12px;
-    flex-wrap: wrap;
-}
-
-.job-header h2 {
-    margin: 0;
-}
-
-/* Dividers between job entries */
-.job-header div {
-    color: #666;
-    font-size: 14px;
-}
-
-.job-header div:not(:last-child)::after {
-    content: "|";
-    margin-left: 12px;
-    color: #999;
-}
-
-/* School entries on education page*/
-.school {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-/* Icons for each school */
-.school-image img {
-    width: 100px;
-    border-radius: 3%;
-}
-
-/* Project entries on projects page */
-.project {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-/* Images for each project */
-.project-image img {
-    width: 400px;
-    border-radius: 3%;
 }
