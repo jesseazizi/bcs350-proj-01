@@ -13,7 +13,7 @@ body {
 
 /* Welcome message on index.html */
 .hero-header {
-    width: 50%;
+    width: 100%;
     font-size: xx-large;
 }
 
@@ -23,10 +23,9 @@ body {
     font-size: medium;
 }
 
-/* Headshot on index.html */
+/* Knapp Hall on index.html */
 .hero-image img {
-    width: 250px;
-    border-radius: 3%;
+    width: 100%;
 }
 
 /* All other sections on index.html */
@@ -78,4 +77,24 @@ body {
 
 .button:active {
     transform: scale(0.97);
+}
+
+/* Diagram on about.html */
+.FSCDrive_diagram img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Each individual service on services.html */
+.service {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Big numbers next to each service on services.html */
+.big-number {
+    font-size: 100px;
+    font-weight: bolder;
 }
